@@ -33,6 +33,7 @@ import { CursosComponent } from './curso/cursos.component';
 import { CursoNovoComponent } from './curso/curso-novo.component';
 import { CursoEditarComponent } from './curso/curso-editar.component';
 import { ConfirmacaoComponent } from './confirmacao/confirmacao.component';
+import {AlunosComponent} from './aluno/listar-aluno/aluno.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { ConfirmacaoComponent } from './confirmacao/confirmacao.component';
     SidenavComponent,
     HomeComponent,
     CursosComponent,
+    AlunosComponent,
     CursoNovoComponent,
     CursoEditarComponent,
     ConfirmacaoComponent
