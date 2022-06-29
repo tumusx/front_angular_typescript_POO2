@@ -5,6 +5,7 @@ import {BackendApiService} from '../../back-end.api';
   providedIn: 'root'
 })
 export class AlunoService extends BackendApiService{
+  // tslint:disable-next-line:ban-types
   protected endPoint(): String {
     return 'alunos';
   }

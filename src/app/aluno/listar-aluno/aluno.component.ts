@@ -3,13 +3,14 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Router } from '@angular/router';
-import { AlunoModel} from '../aluno.model';
-import { AlunoService } from '../aluno.service';
+import {AlunoService} from '../service/aluno.service';
+import {AlunoModel} from '../aluno.model';
+// @ts-ignore
 
 @Component({
   selector: 'app-alunos',
-  templateUrl: './alunos.component.html',
-  styleUrls: ['./alunos.component.css']
+  templateUrl: './aluno.component.html',
+  styleUrls: ['./aluno.component.css']
 })
 export class AlunosComponent implements OnInit {
 
